@@ -14,7 +14,7 @@ spec:
         - /node-problem-detector
         - --logtostderr=true
         - --system-log-monitors=/config/kernel-monitor.json
-        - --custom-plugin-monitors=/config/custom-plugin-monitor.json
+        #- --custom-plugin-monitors=/config/custom-plugin-monitor.json
         #- --system-log-monitors=/config/kernel-monitor.json,/config/kernel-monitor-filelog.json,/config/docker-monitor.json,/config/docker-monitor-filelog.json
         image: tonychengtw/node-problem-detector1:latest
         imagePullPolicy: Always
