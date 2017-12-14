@@ -16,7 +16,8 @@ spec:
         - --system-log-monitors=/config/kernel-monitor.json
         #- --custom-plugin-monitors=/config/custom-plugin-monitor.json
         #- --system-log-monitors=/config/kernel-monitor.json,/config/kernel-monitor-filelog.json,/config/docker-monitor.json,/config/docker-monitor-filelog.json
-        image: tonychengtw/node-problem-detector1:latest
+        #image: tonychengtw/node-problem-detector1:latest
+        image: gcr.io/hopeful-buckeye-184603/node-problem-detector
         imagePullPolicy: Always
         securityContext:
           privileged: true
